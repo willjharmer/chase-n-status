@@ -22,10 +22,10 @@ Depending on the size of the project, if it is small and simple enough the refer
 
 Describe and show how to run the tests with code examples.
 
-## Contributors
+## Contributing
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Bug reports and pull requests are welcome on GitHub at https://github.com/willjharmer/neural. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

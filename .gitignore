@@ -9,3 +9,5 @@
 /pkg
 /doc/api
 /Gemfile.lock
+/vendor/bundle/
+/tmp
