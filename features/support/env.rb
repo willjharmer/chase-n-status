@@ -1,6 +1,6 @@
 require "app"
 
-require "Capybara/cucumber"
+require "capybara/cucumber"
 require 'rspec/expectations'
 
 World do
