@@ -1,7 +1,7 @@
 require "bundler/setup"
 Bundler.require
 
-require "./lib/app"
+require "app"
 
 Sass::Plugin.options[:style] = :compressed
 use Sass::Plugin::Rack

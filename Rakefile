@@ -6,7 +6,7 @@ Cucumber::Rake::Task.new(:features) do |t|
 end
 
 RSpec::Core::RakeTask.new(:spec) do |t|
-  t.rspec_opts = ['--color', '--format', 'documentation', '--format', 'Nc']
+  t.rspec_opts = ['--color', '--format', 'documentation']
 end
 
 task :default => [:features, :spec]
