@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'dotenv'
 gem 'sinatra'
 gem 'haml'
 gem 'rake'
@@ -14,6 +15,7 @@ group :development do
   gem 'guard-rspec', require:false
   gem 'guard-cucumber', require: false
   gem 'shotgun'
+  gem 'awesome_print'
 end
 
 group :test do
@@ -21,4 +23,10 @@ group :test do
   gem 'rspec-nc'
   gem 'cucumber'
   gem 'capybara'
+end
+
+gem 'sqlite3', :group => [:development, :test]
+
+group :database do
+  gem 'sequel'
 end
